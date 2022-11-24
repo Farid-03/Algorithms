@@ -40,7 +40,7 @@ if (n < 50) {
 
 function Dec(n) {
     var c = 0;
-    for (var i = 5; i < n; i += 3) {
+    for (var i = 5; i < n; i += 5) {
         c += 1;
     }
     console.log(c);
